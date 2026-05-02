@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4ffc635060ad7499ded973aac44003, type: 3}
+  m_Name: Card_03_ElvenRanger
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: 3
+  cardName: Elven Ranger
+  cost: 3
+  stats: 3 / 2
+  illustration: {fileID: 21300000, guid: e517897389fc66a44a68782341ec8088, type: 3}
+  description: 'Battlecry: Deal 1 damage to an enemy.'
