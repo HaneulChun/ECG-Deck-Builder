@@ -688,7 +688,6 @@ MonoBehaviour:
   DecPos: {fileID: 89119740}
   saveButton: {fileID: 221807742}
   apiManager: {fileID: 720154830}
-  userManager: {fileID: 0}
 --- !u!4 &1418138480
 Transform:
   m_ObjectHideFlags: 0
