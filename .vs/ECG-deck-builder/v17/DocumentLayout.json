@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\cblue\\ECG-deck-builder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|c:\\users\\cblue\\ecg-deck-builder\\assets\\scripts\\systems\\deckbuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\deckbuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\cards\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\systems\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\cards\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\cardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\systems\\deckbuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\deckbuildercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\cards\\deckclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\deckclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\deckdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|C:\\Users\\cblue\\ECG-deck-builder\\assets\\scripts\\jsonbinresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jsonbinresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|c:\\users\\cblue\\ecg-deck-builder\\assets\\scripts\\systems\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|c:\\users\\cblue\\ecg-deck-builder\\assets\\scripts\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|c:\\users\\cblue\\ecg-deck-builder\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E0B346-A703-AB02-2A49-DD0D1E1E438E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +50,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T06:42:45.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\UserManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UserManager.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\UserManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UserManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T06:37:25.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeckManager.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Systems\\DeckManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\DeckManager.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Systems\\DeckManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\DeckManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T06:31:09.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JsonBinResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\JsonBinResponse.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JsonBinResponse.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\JsonBinResponse.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JsonBinResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T05:44:38.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiManager.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\ApiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ApiManager.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\ApiManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ApiManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T05:41:15.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeckData.cs",
+              "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\DeckData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeckData.cs",
+              "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\DeckData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeckData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T05:40:06.42Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -36,19 +138,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\DeckClick.cs",
               "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Cards\\DeckClick.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cards\\DeckClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T03:20:22.049Z"
+              "WhenOpened": "2026-05-03T03:20:22.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DeckBuilderController.cs",
               "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Systems\\DeckBuilderController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\DeckBuilderController.cs",
               "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Systems\\DeckBuilderController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Systems\\DeckBuilderController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwB4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwE8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T03:17:49.506Z",
               "EditorCaption": ""
@@ -61,20 +164,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\HandManager.cs",
               "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Systems\\HandManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Systems\\HandManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-02T23:42:57.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CardView.cs",
               "DocumentMoniker": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Cards\\CardView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\CardView.cs",
               "ToolTip": "C:\\Users\\cblue\\ECG-deck-builder\\Assets\\Scripts\\Cards\\CardView.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cards\\CardView.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAYwEAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-02T22:03:26.02Z",
               "EditorCaption": ""

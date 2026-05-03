@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeckBuilderController : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class DeckBuilderController : MonoBehaviour
 
     [SerializeField] private Transform focusPoint;
     [SerializeField] private Transform DecPos;
+
+    [SerializeField] private GameObject saveButton;
+
+    [SerializeField] private ApiManager apiManager;
 
     private enum State
     {
@@ -54,6 +59,7 @@ public class DeckBuilderController : MonoBehaviour
             return;
 
         StartCoroutine(FinishToHand(card));
+
     }
 
     IEnumerator FinishToHand(CardView card)
@@ -64,5 +70,43 @@ public class DeckBuilderController : MonoBehaviour
 
         currentCard = null;
         state = State.Idle;
+
+        if (handManager.IsFull)
+        {
+            saveButton.SetActive(true);
+        }
+    }
+
+    public void SaveDeck()
+    {
+        if (!handManager.IsFull)
+        {
+            Debug.Log("Deck not complete (need 8 cards)");
+            return;
+        }
+
+        StartCoroutine(SaveRoutine());
+    }
+
+    private IEnumerator SaveRoutine()
+    {
+        DeckData existing = null;
+
+        yield return StartCoroutine(apiManager.Load((data) =>
+        {
+            existing = data;
+        }));
+
+        if (existing == null)
+        {
+            existing = new DeckData();
+        }
+
+        existing.user_id = UserManager.Instance.GetUserId();
+        existing.decks.Add(handManager.GetCardIDs());
+
+        yield return StartCoroutine(apiManager.Save(existing));
+
+        Debug.Log("Deck saved successfully");
     }
 }

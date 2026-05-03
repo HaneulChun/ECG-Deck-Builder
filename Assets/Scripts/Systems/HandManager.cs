@@ -32,4 +32,22 @@ public class HandManager : MonoBehaviour
             );
         }
     }
+
+
+    public List<string> GetCardIDs()
+    {
+        List<string> ids = new List<string>();
+
+        foreach (var card in cards)
+        {
+            ids.Add(card.Data.id.ToString());
+        }
+
+        return ids;
+    }
+
+    public void Clear()
+    {
+        cards.Clear();
+    }
 }
