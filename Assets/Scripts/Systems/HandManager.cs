@@ -1,44 +1,35 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class HandManager : MonoBehaviour
 {
+    [SerializeField] private Transform handArea;
+    [SerializeField] private float spacing = 150f;
+
     [SerializeField] private List<CardView> cards = new List<CardView>();
 
-    [SerializeField] private int maxCards = 8;
-
-    [Header("Layout")]
-    [SerializeField] private Transform handArea;
-    [SerializeField] private float spacing = 200f;
-
-    public bool IsFull => cards.Count >= maxCards;
+    public bool IsFull => cards.Count >= 8;
     public Transform HandArea => handArea;
 
     public void AddCard(CardView card)
     {
-        if (IsFull) return;
-
         cards.Add(card);
         UpdateLayout();
+    }
+
+    public Vector3 GetNextPosition()
+    {
+        int index = cards.Count;
+        return handArea.position + new Vector3(index * spacing, 0, 0);
     }
 
     void UpdateLayout()
     {
         for (int i = 0; i < cards.Count; i++)
         {
-            cards[i].transform.position = GetPosition(i);
+            cards[i].SetHandPosition(
+                handArea.position + new Vector3(i * spacing, 0, 0)
+            );
         }
-    }
-
-    Vector3 GetPosition(int index)
-    {
-        float startX = -(cards.Count - 1) * spacing / 2f;
-        return handArea.position + new Vector3(startX + index * spacing, 0, 0);
-    }
-
-    public List<string> GetCardIDs()
-    {
-        return cards.Select(c => c.Data.id).ToList();
     }
 }
