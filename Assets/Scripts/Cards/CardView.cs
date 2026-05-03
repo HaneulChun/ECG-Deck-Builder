@@ -13,6 +13,7 @@ public class CardView : MonoBehaviour
     [SerializeField] private Image illustration;
 
     private CardData data;
+    public CardData Data => data;
 
     public void Setup(CardData cardData)
     {
